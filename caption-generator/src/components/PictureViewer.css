@@ -1,0 +1,17 @@
+.picture-viewer {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture-viewer-image {
+    height: 300px;
+    width: 300px;
+    border: 1px solid #ccc;
+    box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+}
